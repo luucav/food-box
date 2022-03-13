@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Box</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="cabeçalho">
+        <h1>FoodBox</h1>
+        <h2>Monte seu box e receba em 15minutos</h2>
+    </div>
+
+    <h3>Primeiro seu prato</h3>
+
+    <div class="produto" id="Frango Ying-Yang" onclick="escolherFrango()">
+        <img src="src/img/frango-com-batata.png" alt="Frango com Batatas">
+        <h4>Frango Ying-Yang</h4>
+        <p>Um pouco de batata, um pouco de salada</p>
+        <p><strong>R$ 19,90</strong></p>
+    </div>
+    <div class="produto" id="carne" onclick="escolherCarne()">
+        <img src="src/img/carne.jpg" alt="Carne e Salada">
+        <h4>Carne e salada</h4>
+        <p>Uma deliciosa alcatra, macia e sucolenta com alguns acompanhamentos</p>
+        <p><strong>R$ 24,90</strong></p>
+    </div>
+
+    <h3>Agora escolha sua bebida</h3>
+
+    <div class="produto" id="coca" onclick="escolherCoca ()">
+        <img src="src/img/coca.jpg" alt="Coca-cola">
+        <h4>Coca-cola em lata 350ml</h4>
+        <p>Refigerante coca-cola, estremamente gelado para acompanhar sua refeição</p>
+        <p><strong>R$ 4,50</strong></p>
+    </div>
+    <div class="produto" id="refresco" onclick="escolherRefresco ()">
+        <img src="src/img/suco.webp" alt="Suco de laranja">
+        <h4>Suco de laranja</h4>
+        <p>Suco feito da fruta, extraida e cultivada por nós da FoodBox</p>
+        <p><strong>R$ 2,50</strong></p>
+    </div>
+
+    <h3>Agora escolha sua Sobremesa</h3>
+
+    <div class="produto" id="pudim" onclick="escolherPudim ()">
+        <img src="src/img/pudim.jpg" alt="Pudim">
+        <h4>Pudim de leite</h4>
+        <p>Pudim de leite delicioso</p>
+        <p><strong>R$ 4,50</strong></p>
+    </div>
+    <div class="produto" id="sorvete" onclick="escolherSorvete ()">
+        <img src="src/img/sorvete.jpg" alt="Sorvete">
+        <h4>Sorvete Napolitano</h4>
+        <p>Irresistivel sorvete sabor Napolitano 
+            feito na hora
+        </p>
+        <p><strong>R$ 10,50</strong></p>
+    </div>
+
+    <div class="botao" onclick="finalizarPedido()">
+        <span>Finalizar Pedido</span>
+    </div>
+
+ <script src="src/js/index.js"></script>
+    
+</body>
+
+</html>

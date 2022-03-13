@@ -1,0 +1,56 @@
+body {
+    background-color: lightgray;
+    max-width: 400px;
+    margin: auto;
+
+}
+
+
+.cabeçalho {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;  
+    margin-bottom: 30px;  
+}
+
+.produto {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 20%;
+    border-radius: 5px;
+    float: right;
+}
+
+.botao {
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
